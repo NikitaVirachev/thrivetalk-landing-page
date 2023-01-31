@@ -31,6 +31,14 @@ body {
   font-weight: 400;
 }
 
+.logo {
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 2.7rem;
+  color: #62d0df;
+  letter-spacing: -0.024em;
+}
+
 /* HELPER/SETTINGS CLASSES */
 
 .margin-top-logo {

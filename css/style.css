@@ -12,14 +12,9 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-}
 
-.header-logo {
-  font-weight: 500;
-  font-size: 2.4rem;
-  line-height: 2.7rem;
-  color: #62d0df;
-  letter-spacing: -0.024em;
+  position: relative;
+  z-index: 999;
 }
 
 .main-nav {
@@ -76,4 +71,112 @@
   font-family: "Larsseit", sans-serif;
   font-weight: 500;
   color: #fff;
+}
+
+/**************************/
+/* HERO SECTION */
+/**************************/
+
+.hero {
+  max-width: 144rem;
+  padding: 16.7rem 0 7.5rem 17.9rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 13.3rem;
+  justify-content: space-between;
+}
+
+.hero-content-box {
+  max-width: 47rem;
+}
+
+.hero-heading {
+  font-size: 4.8rem;
+  line-height: 5.9rem;
+  letter-spacing: -0.027em;
+  color: #22356f;
+  margin-top: 3.7rem;
+}
+
+.hero-description {
+  font-size: 2.4rem;
+  line-height: 4.6rem;
+  color: #22356f;
+  margin-top: 5.7rem;
+}
+
+.hero-cta {
+  display: flex;
+  gap: 0.9rem;
+  margin-top: 4.8rem;
+}
+
+.btn:link,
+.btn:visited {
+  font-size: 1.6rem;
+  line-height: 2.3rem;
+  letter-spacing: 0.11em;
+  text-decoration: none;
+  padding: 1.3rem 3rem 1.4rem 3rem;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  background-color: #f9b640;
+  color: #fff;
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  color: #fab63e;
+}
+
+.hero-img-box {
+  max-width: 100%;
+  position: relative;
+}
+
+.hero-img {
+  width: 80.771rem;
+  height: 54.493rem;
+  border-radius: 31.2159rem;
+  background: #ffe2de;
+  overflow: hidden;
+
+  position: absolute;
+  z-index: 2;
+  top: -13.2rem;
+  left: 0;
+  transform: matrix(-0.87, 0.5, 0.5, 0.87, 0, 0);
+}
+
+.hero-img-box::before {
+  content: "";
+  display: block;
+  width: 80.771rem;
+  height: 54.493rem;
+  border-radius: 31.2159rem;
+  background: #edfdff;
+
+  position: absolute;
+  transform: matrix(-0.5, 0.87, 0.87, 0.5, 0, 0);
+  z-index: 1;
+  top: -19.5rem;
+  left: -1.4rem;
+}
+
+.hero-img::after {
+  content: "";
+  display: block;
+  width: 140%;
+  height: 140%;
+  background: linear-gradient(
+      213.71deg,
+      #ffffff 11.23%,
+      rgba(255, 255, 255, 0) 48.4%
+    ),
+    url(/img/linkedin-sales-navigator-406825.webp);
+  background-size: 100%;
+  transform: scaleX(-1) rotate(30deg) translate(-7%, -23.5%);
 }
