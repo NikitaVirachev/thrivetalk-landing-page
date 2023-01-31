@@ -5,3 +5,75 @@
 .container {
   background-image: linear-gradient(to right, #f4f9e2 71%, #fff 29%);
 }
+
+.header {
+  max-width: 144rem;
+  padding: 2.7rem 13.1rem 0 17.9rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo {
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 2.7rem;
+  color: #62d0df;
+  letter-spacing: -0.024em;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 70.2rem;
+}
+
+.main-nav-list {
+  display: flex;
+  gap: 2.6rem;
+  list-style: none;
+}
+
+.main-nav-link {
+  position: relative;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  text-decoration: none;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  color: #22356f;
+}
+
+.main-nav-link:hover:after,
+.main-nav-link:active:after,
+.main-nav-link-active::after {
+  content: "";
+  display: block;
+  width: 130%;
+  height: 0.1rem;
+  background: #22356f;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translate(-15%, 1rem);
+}
+
+.main-nav-btn {
+  border: none;
+  width: 15rem;
+  height: 5rem;
+  background: #62d0df;
+  border-radius: 5rem;
+}
+
+.main-nav-btn a:link,
+.main-nav-btn a:visited {
+  text-decoration: none;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  font-family: "Larsseit", sans-serif;
+  font-weight: 500;
+  color: #fff;
+}
