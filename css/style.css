@@ -233,3 +233,33 @@
   background-size: cover;
   background-position: 50% center;
 }
+
+/**************************/
+/* ABOUT US SECTION */
+/**************************/
+
+.about-us {
+  max-width: 144rem;
+  margin: 0 auto;
+  padding: 12.5rem 10.6rem 0 10.6rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-us-header {
+  font-size: 1.6rem;
+  line-height: 2.3rem;
+  letter-spacing: 0.06em;
+  color: #22356f;
+
+  transform: translate(0, 130%);
+}
+
+.about-us-description {
+  align-self: center;
+  width: 59.2rem;
+  font-size: 2.4rem;
+  line-height: 3.7rem;
+  letter-spacing: 0.011em;
+  color: #22356f;
+}
