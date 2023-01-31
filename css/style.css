@@ -79,7 +79,7 @@
 
 .hero {
   max-width: 144rem;
-  padding: 16.7rem 0 7.5rem 17.9rem;
+  padding: 16.7rem 0 7.7rem 17.9rem;
   margin: 0 auto;
   display: grid;
   grid-template-columns: auto 1fr;
@@ -179,4 +179,57 @@
     url(/img/linkedin-sales-navigator-406825.webp);
   background-size: 100%;
   transform: scaleX(-1) rotate(30deg) translate(-7%, -23.5%);
+}
+
+/**************************/
+/* WHY US SECTION */
+/**************************/
+
+.why-us-section {
+  background-color: #62d0df;
+}
+
+.why-us {
+  max-width: 144rem;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 18.1rem;
+}
+
+.why-us-text-box {
+  padding: 16.1rem 0 0 17.8rem;
+  color: #fff;
+}
+
+.why-us-heading-secondary {
+  font-size: 3.6rem;
+  font-weight: 500;
+  line-height: 2.7rem;
+  letter-spacing: 0.005em;
+}
+
+.why-us-description {
+  font-size: 2rem;
+  line-height: 3.3rem;
+  font-weight: 400;
+
+  margin-top: 8.6rem;
+}
+
+.why-us-subtitle {
+  font-size: 2.4rem;
+  line-height: 3.8rem;
+  letter-spacing: 0.008em;
+  font-weight: 500;
+}
+
+.why-us-img-box {
+  width: 52.5rem;
+  height: 60.4rem;
+
+  background: url(/img/christopher-campbell-40367.webp);
+  background-size: cover;
+  background-position: 50% center;
 }
