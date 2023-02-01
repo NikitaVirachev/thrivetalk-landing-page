@@ -2,14 +2,12 @@
 /* HEADER */
 /**************************/
 
-.container {
+.header-container {
   background-image: linear-gradient(to right, #f4f9e2 71%, #fff 29%);
 }
 
 .header {
-  max-width: 144rem;
   padding: 2.7rem 13.1rem 0 17.9rem;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
 
@@ -78,9 +76,7 @@
 /**************************/
 
 .hero {
-  max-width: 144rem;
   padding: 16.7rem 0 7.7rem 17.9rem;
-  margin: 0 auto;
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 13.3rem;
@@ -190,9 +186,6 @@
 }
 
 .why-us {
-  max-width: 144rem;
-  margin: 0 auto;
-
   display: grid;
   grid-template-columns: auto auto;
   gap: 18.1rem;
@@ -239,8 +232,6 @@
 /**************************/
 
 .about-us {
-  max-width: 144rem;
-  margin: 0 auto;
   padding: 12.5rem 10.6rem 0 10.6rem;
   display: flex;
   flex-direction: column;
@@ -269,8 +260,6 @@
 /**************************/
 
 .features {
-  max-width: 144rem;
-  margin: 0 auto;
   padding-top: 6.7rem;
   padding-bottom: 12rem;
 }
@@ -345,9 +334,6 @@
 /**************************/
 
 .options {
-  max-width: 144rem;
-  margin: 0 auto;
-
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
