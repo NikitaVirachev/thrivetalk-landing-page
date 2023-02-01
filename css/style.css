@@ -332,10 +332,81 @@
   background-color: #c4e769;
 }
 
-.blue {
+.light-blue {
   background-color: #62d0df;
 }
 
-.dark-blue {
+.blue {
   background-color: #0052c1;
+}
+
+/**************************/
+/* FEATURES SECTION */
+/**************************/
+
+.options {
+  max-width: 144rem;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.options-item-box {
+  aspect-ratio: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.options-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.options-item-border {
+  width: 34rem;
+  height: 9.6rem;
+  box-shadow: inset 0px -1px 0px #fff;
+}
+
+.options-description {
+  margin-top: 3.3rem;
+  display: flex;
+  gap: 2.2rem;
+  align-self: flex-start;
+}
+
+.options-cicle {
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  background: #e9b730;
+  margin-top: 1.4rem;
+}
+
+.options-description p {
+  font-size: 3.2rem;
+  line-height: 3.7rem;
+  letter-spacing: 0.014em;
+  color: #fff;
+}
+
+.dark-blue {
+  background-color: #22356f;
+}
+
+.strawberry {
+  background: url(/img/joanna-kosinska-340748.webp);
+  background-position: 41% center;
+  background-size: 150%;
+}
+
+.light-purple {
+  background-color: #dee1ff;
+}
+
+.purple {
+  background-color: #8f00ff;
 }
