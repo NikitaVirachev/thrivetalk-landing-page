@@ -48,7 +48,6 @@ body {
 
 .z-pattern {
   display: grid;
-  grid-template-columns: auto 1fr;
 }
 
 .z-pattern-img {
