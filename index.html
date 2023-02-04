@@ -7,25 +7,30 @@
 
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <script defer src="/js/script.js"></script>
 
     <title>Thrivetalk</title>
   </head>
   <body>
-    <div class="header-container">
+    <div class="header-container" id="home">
       <header class="header container">
         <p class="logo margin-top-logo">Thrivetalk</p>
 
         <nav class="main-nav">
           <ul class="main-nav-list margin-top-main-nav-list">
             <li>
-              <a class="main-nav-link main-nav-link-active" href="#">Home</a>
+              <a class="main-nav-link main-nav-link-active" href="#home"
+                >Home</a
+              >
             </li>
-            <li><a class="main-nav-link" href="#">About</a></li>
-            <li><a class="main-nav-link" href="#">Services</a></li>
-            <li><a class="main-nav-link" href="#">Blog</a></li>
+            <li><a class="main-nav-link" href="#about">About</a></li>
+            <li><a class="main-nav-link" href="#services">Services</a></li>
+            <li><a class="main-nav-link" href="#blog">Blog</a></li>
           </ul>
 
-          <button class="main-nav-btn"><a href="#">CONTACT US</a></button>
+          <button class="main-nav-btn">
+            <a href="#contact">CONTACT US</a>
+          </button>
         </nav>
       </header>
 
@@ -39,8 +44,8 @@
             even just caring for yourself more.
           </p>
           <div class="hero-cta">
-            <a class="btn btn--full" href="#">WHO AM I</a>
-            <a class="btn btn--outline" href="#">WHAT DO I DO</a>
+            <a class="btn btn--full" href="#why-us">WHO AM I</a>
+            <a class="btn btn--outline" href="#features">WHAT DO I DO</a>
           </div>
         </div>
 
@@ -51,7 +56,7 @@
     </div>
 
     <main>
-      <section class="why-us-section">
+      <section class="why-us-section" id="why-us">
         <div class="why-us container">
           <div class="why-us-text-box">
             <h2 class="why-us-heading-secondary">Why Thrive?</h2>
@@ -71,7 +76,7 @@
         </div>
       </section>
 
-      <section class="about-us-section">
+      <section class="about-us-section" id="about">
         <div class="about-us container">
           <h2 class="about-us-header">ABOUT US</h2>
           <p class="about-us-description">
@@ -84,7 +89,7 @@
         </div>
       </section>
 
-      <section class="features-section">
+      <section class="features-section" id="features">
         <div class="features container">
           <h2 class="features-header">WE CAN HELP YOU WITH</h2>
           <div class="features-items">
@@ -131,7 +136,7 @@
         </div>
       </section>
 
-      <section class="options-section">
+      <section class="options-section" id="services">
         <div class="options container">
           <div class="options-item-box dark-blue">
             <div class="options-item">
@@ -247,7 +252,7 @@
         </div>
       </section>
 
-      <section class="blog-section">
+      <section class="blog-section" id="blog">
         <div class="blog container z-pattern">
           <div class="z-pattern-img blog-img"></div>
           <div class="z-pattern-text blog-text">
@@ -263,7 +268,7 @@
         </div>
       </section>
 
-      <section class="contact-section">
+      <section class="contact-section" id="contact">
         <div class="contact container z-pattern">
           <div class="z-pattern-text contact-text">
             <h2 class="z-pattern-heading contact-heading">CONTACT US</h2>
