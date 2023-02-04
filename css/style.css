@@ -563,7 +563,16 @@
   opacity: inherit;
 }
 
+.footer-col-address {
+  display: block;
+  text-decoration: none;
+  color: rgba(34, 53, 111, 0.5);
+}
+
 .footer-col-phone {
+  display: block;
+  text-decoration: none;
+  color: rgba(34, 53, 111, 0.5);
   margin-top: 2.4rem;
 }
 
