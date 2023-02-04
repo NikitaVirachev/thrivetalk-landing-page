@@ -427,3 +427,35 @@
   color: rgba(34, 53, 111, 0.5);
   margin-top: 2.8rem;
 }
+
+/**************************/
+/* BLOG SECTION */
+/**************************/
+
+.blog-img {
+  background-image: url(/img/linkedin-sales-navigator-402831.webp);
+  background-size: cover;
+  background-position: 50% center;
+}
+
+.blog-text {
+  padding-left: 10.6rem;
+}
+
+.blog-description {
+  width: 68rem;
+  padding-top: 14.9rem;
+  font-size: 3.6rem;
+  line-height: 5.9rem;
+  letter-spacing: -0.002em;
+  color: #22356f;
+}
+
+.blog-description-title {
+  color: #6cd3e1;
+}
+
+.blog-link {
+  /* padding-top: 15.2rem; */
+  color: #fab63e;
+}
